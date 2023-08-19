@@ -1,0 +1,193 @@
+
+
+
+
+#navi{background-image: linear-gradient(to right,#D64AFF, #FFDF10 );max-width: 100%;}
+
+*{
+    margin:0px;
+}
+
+#navi2{
+   background-image: linear-gradient(to right, #282B5F, #282B5F);max-width: 100%;
+}
+
+#navi3{
+    background-image: linear-gradient(to right, #ffffff, #ffffff);max-width: 100%;
+ }
+
+ #navi4{
+    background-image: linear-gradient(to right,#2F188D,#2F188D);max-width: 100%;
+ }
+ #navi5{
+    background-image: linear-gradient(to right,#4AECFF,#FFDF10);max-width: 100%;
+ }
+#navi6{
+    background-image: linear-gradient(to right,#0D464A,#0D464A);max-width: 100%;
+}
+#navi8{
+    background-image: linear-gradient(to right,#1929B1,#E224FF);max-width: 100%;
+}
+#navi9{
+    background-image: linear-gradient(to right,#29F144,#29F144);max-width: 100%;
+}
+#navi10{
+    background-image: linear-gradient(to right,#AA1212,#FF43B4);max-width: 100%;
+}
+#navi11{
+    background-image: linear-gradient(to right,#C7F3FF,#C7F3FF);max-width: 100%;
+}
+#navi12{
+    background-image: linear-gradient(to right,#E14E0D,#FFF133);max-width: 100%;
+}
+#navi13{
+    background-image: linear-gradient(to right,#5715C9,#5715C9);
+    max-width: 100%;
+}
+
+
+
+
+
+#one{
+    font-size:40px;
+    margin-bottom: 15px;
+}
+#two{
+    font-size:40px;
+    margin-bottom: 15px;
+    color:#FF9A26;
+
+}
+#three{
+    font-size:40px;
+    margin-bottom: 15px;
+    color:#000000;
+
+}
+#five,#nine,#eleven{
+    font-size:40px;
+    margin-bottom: 15px;
+    color:#000000;
+}
+#six{
+    font-size:40px;
+    margin-bottom: 15px;
+    color:#FF9A26;
+}
+
+
+#four,#eight,#ten ,#twelve,#thirteen{
+    font-size:40px;
+    margin-bottom: 15px;
+    color:#ffffff;
+}
+
+
+
+
+
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 10000fr;
+    grid-gap: 0px;
+    
+}
+
+#light{
+    font-size:25px;
+    font-weight:500;
+    width:570px;
+}
+#light2,#light3,#light4{
+    font-size:25px;
+    font-weight:500;
+    width:100%;
+
+}
+
+
+
+a  {
+    color: black;     
+    text-decoration: none;
+    
+  }
+
+  a:hover {
+    color: blue;
+    text-decoration: underline;
+    font-weight: bold;
+    
+  }
+
+  a:active {
+    color:red ;
+  }
+  
+
+
+
+  /*lets add media queeries here */
+  * {
+  margin: 0;
+}
+
+
+
+
+@media (max-width: 576px) {
+        /* Adjust logo dimensions */
+        .grid-container > div:nth-child(1) img,
+        .grid-container > div:nth-child(2) img {
+          width: 100px;
+          height: auto;
+        }
+    
+.li .a{
+    font-size:5em;
+}
+
+    }
+
+
+        .grid-container {
+            padding: 0px;
+          }
+
+
+          @media (min-width: 993px) {
+            /* Adjust logo dimensions */
+            .grid-container > div:nth-child(1) img,
+            .grid-container > div:nth-child(2) img {
+              width: 155px;
+              height: auto;
+            }}
+
+
+            /* Add these styles to your existing CSS */
+.logo img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Adjust spacing around the image */
+  .logo {
+    padding: 10px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .logo {
+      padding: 5px;
+    }
+  }
+  
+
+
+  @media (max-width: 768px) {
+    #light p {
+        font-size: 16px;
+    }
+}
